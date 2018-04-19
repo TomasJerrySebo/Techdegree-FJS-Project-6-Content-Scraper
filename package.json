@@ -1,0 +1,27 @@
+{
+  "name": "techdegree-fjs-project-6-content-scraper",
+  "version": "0.0.1",
+  "description": "Content scrapper to read website data and saving it to a csv file.",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasJerrySebo/Techdegree-FJS-Project-6-Content-Scraper.git"
+  },
+  "author": "Tomas Jerry Sebo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomasJerrySebo/Techdegree-FJS-Project-6-Content-Scraper/issues"
+  },
+  "homepage": "https://github.com/TomasJerrySebo/Techdegree-FJS-Project-6-Content-Scraper#readme",
+  "dependencies": {
+    "csv-writer": "^1.0.0",
+    "npm": "^5.8.0",
+    "scrape-it": "^5.0.3"
+  },
+  "scripts": {
+    "start": "node scraper.js"
+  }
+}
