@@ -28,7 +28,8 @@ const scrapDetailPage = (url,initTrigger) => {
         }
     }).then(({ data, response }) => {
         csvInitCounter++;
-        data.URL = url;
+        data.ImageURL = baseUrl + data.ImageURL;
+        data.URL = baseUrl+url;
         data.time = new Date().toISOString().replace('T',' ').split('.')[0];
         dataObj.push(data);
     if(csvInitCounter == initTrigger) { csv.CsvWriterInit(filepath,dataObj); }
